@@ -87,7 +87,7 @@
           </div> <br> <br> <div class="row">
             <p>Date De Naissance*</p>
         </div>
-          <input type="date" id="start" name="trip-start" class="w-100">
+          <input type="date" id="start" name="trip-start" class="w-100" required>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Code postal*</label>
             <input type="texte" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
@@ -104,11 +104,7 @@
             <input type="texte" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
           </div>
 
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Email*</label>
-            <input type="texte" class="form-control" id="exampleInputPassword1">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-          </div> <br>
+          <label for="email">Email*</label><input class="imput form-control" type="text" name="email" id="email" required>
           <div class="row">
             
             <h1>Votre demande</h1>
@@ -118,8 +114,8 @@
         </div>
           <select class="form-select" aria-label="Default select example">
             
-          <option selected>Open this select menu</option>
-          <option value="1">One</option>
+          <option selected >Open this select menu</option>
+          <option value="1" >One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
         </select>  <br>
@@ -127,10 +123,10 @@
             <p>Votre Question*</p>
         </div>
 <div class="form-outline">
-    <textarea class="form-control" id="textAreaExample2" rows="3"></textarea>
-    <label class="form-label" for="textAreaExample2">Message</label>
+    <textarea class="form-control" id="textAreaExample2" rows="3" required></textarea>
+    <label class="form-label" for="textAreaExample2" >Message</label>
   </div>
-  <button type="submite" class="btn btn-dark">Envoyer</button>
+  <button type="submite" class="btn btn-dark" href="#">Envoyer</button>
   <button type="reset" class="btn btn-dark">Annuler</button>
   
       </form> 
